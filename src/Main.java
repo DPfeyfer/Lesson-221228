@@ -73,43 +73,29 @@ public class Main {
         System.out.println("Task5");
        int month = 13;
        switch (month){
+           case 12:
            case 1:
-               System.out.println("This is day of winter");
-               break;
            case 2:
-               System.out.println("This is day of winter");
+               System.out.println("This is month of winter");
                break;
            case 3:
-               System.out.println("This is day of spring");
-               break;
            case 4:
-               System.out.println("This is day of spring");
-               break;
            case 5:
-               System.out.println("This is day of spring");
+               System.out.println("This is month of spring");
                break;
            case 6:
-               System.out.println("This is day of summer");
-               break;
            case 7:
-               System.out.println("This is day of summer");
-               break;
            case 8:
-               System.out.println("This is day of summer");
+               System.out.println("This is month of summer");
                break;
            case 9:
-               System.out.println("This is day of autumn");
-               break;
            case 10:
-               System.out.println("This is day of autumn");
-               break;
            case 11:
                System.out.println("This is day of autumn");
                break;
-           case 12:
-               System.out.println("This is day of winter");
-               break;
+
            default:
+               System.out.println("not correct");
        }
 
     }}
