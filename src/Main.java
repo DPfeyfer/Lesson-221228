@@ -1,5 +1,6 @@
 public class Main {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) {Task_31();
 
 
         //task 1
@@ -35,7 +36,7 @@ public class Main {
 
         //task 3
        System.out.println("Task3");
-       int year = 2300;
+       int year = 2000;
        if (year % 4 == 0) {
            if (year % 100 == 0) {
                if (year % 400 == 0){
@@ -49,6 +50,7 @@ public class Main {
 
        else{
            System.out.println(year + " not leap year");}
+
 
 
        //task 4
@@ -97,5 +99,16 @@ public class Main {
            default:
                System.out.println("not correct");
        }
+    }
+    public static void Task_31() {
+        System.out.println("Task 3.1");
+        int year = 2020;
 
-    }}
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            System.out.println(year + " leap year");
+        } else {
+            System.out.println(year + " not leap year");
+        }
+        System.out.println();
+    }
+}
